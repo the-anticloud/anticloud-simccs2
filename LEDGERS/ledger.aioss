@@ -1,0 +1,9 @@
+# AIOSS ledger v1
+# project: CARBON_CAPTURE/SIMCCS2
+# records: 5
+# head: e9df05316b7530272431c121dfea0a11bbba03d7211fc48768909342921d49bb
+{"digest": "d8252f81500aa5a6b66a87e38c6df800fd395cbb61e5c4ea446299d3ffeb78cc", "kind": "bench-report", "path": "BENCH.json", "payload_sha3": "e3d37c10d319ab0be8578b3ab78f243e4847820178ee74ed55976a57a797d1b5", "prev": "5a5a9db5fb708ae61804306200e7a9e31853dde596c5f14d2303d4349fe14b2d", "seq": 0, "ts": "2026-10-09T05:52:34Z"}
+{"digest": "2922554a3dfda18981c481b7e1515a8e99b340b50641a94ce33a1dd09c4a7814", "kind": "result-register", "path": "ISOLATED_LAB_RESULTS/03_Result_Register.md", "payload_sha3": "422c1dd94acd366c7c7bb92fec5067efc62ed13435c49821ea792f43a97fded1", "prev": "d8252f81500aa5a6b66a87e38c6df800fd395cbb61e5c4ea446299d3ffeb78cc", "seq": 1, "ts": "2026-10-09T05:52:34Z"}
+{"digest": "a8aad545d9741ccc07e8207f5ba9562ececa138ee27cc7cb9d0a20bb813c323a", "kind": "readme", "path": "README.md", "payload_sha3": "fd5cbb311c798376e513f72230e50dd81e834a0a4e0877be1466ce58baddc4f4", "prev": "2922554a3dfda18981c481b7e1515a8e99b340b50641a94ce33a1dd09c4a7814", "seq": 2, "ts": "2026-10-09T05:52:34Z"}
+{"digest": "91505823adc8f823e97042be69f67470d269122a8e1ab6dda0dee3b722ab7132", "kind": "licence", "path": "ANTICOMMONS_LICENSE.md", "payload_sha3": "75a67676dd0e03f2d69d38c4f0d3ce998754815f2c37593d40e5001a8b7972cf", "prev": "a8aad545d9741ccc07e8207f5ba9562ececa138ee27cc7cb9d0a20bb813c323a", "seq": 3, "ts": "2026-10-09T05:52:34Z"}
+{"digest": "e9df05316b7530272431c121dfea0a11bbba03d7211fc48768909342921d49bb", "kind": "notice", "path": "NOTICE", "payload_sha3": "d18cf91bc9548346733e1fb3271d92a8fce200c9b27b3656d0fb9cfc62daea5a", "prev": "91505823adc8f823e97042be69f67470d269122a8e1ab6dda0dee3b722ab7132", "seq": 4, "ts": "2026-10-09T05:52:34Z"}
