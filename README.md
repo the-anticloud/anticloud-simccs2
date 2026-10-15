@@ -1,5 +1,15 @@
 # SIMCCS2
 
+> Anticloud offline package — upstream: the-anticloud/anticloud-simccs2 @ `main`.
+
+## What This Project Does
+
+Anticloud offline package: SIMCCS2
+
+## Upstream README
+
+# SIMCCS2
+
 **Category:** CARBON_CAPTURE
 **Status:** Active development with Anticloud overlay
 
@@ -111,132 +121,12 @@ Runtime dependencies are managed by the upstream project build
 system. Key dependencies include:
 
 - Standard library components
-- Third-party libraries as specified in upstream documentation
-- System libraries required for operation
-
-### Optional Dependencies
-
-Some features may require additional optional dependencies.
-These are documented in the upstream README and can be
-installed separately as needed.
-
-## Configuration
-
-### Configuration File
-
-SIMCCS2 uses a configuration file for runtime settings.
-The default location is typically:
-
-- **Linux/macOS:** ~/.config/simccs2/config.yaml
-- **Windows:** %APPDATA%\simccs2\config.yaml
-
-### Configuration Options
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| log_level | string | info | Logging verbosity |
-| output_dir | string | ./output | Output directory |
-| max_workers | int | 4 | Maximum worker threads |
-| timeout | int | 30 | Operation timeout (seconds) |
-
-### Environment Variables
-
-The following environment variables can override configuration:
-
-- **SIMCCS2_LOG_LEVEL** - Override log level
-- **SIMCCS2_CONFIG** - Path to custom config file
-- **SIMCCS2_OUTPUT** - Override output directory
-
-## Contributing
-
-Contributions to SIMCCS2 are welcome. Please follow
-these guidelines:
-
-1. **Fork the repository** and create a feature branch
-2. **Make your changes** with clear commit messages
-3. **Add tests** for new functionality
-4. **Update documentation** as needed
-5. **Submit a pull request** with a clear description
-
-### Code Style
-
-Follow the code style established in the upstream project.
-Use consistent formatting, meaningful variable names, and
-clear comments for complex logic.
-
-### Reporting Issues
-
-When reporting issues, please include:
-
-- Operating system and version
-- Project version or commit hash
-- Steps to reproduce the issue
-- Expected vs actual behavior
-- Relevant log output
+- Thi
 
 ## License
 
-**Overlay license:** Anticommons 0.1.0
-**Upstream license:** MIT
+Upstream terms preserved in `THIRD_PARTY_LICENSES/`. Overlay licensed under Anticommons 0.1.0.
 
-This project is distributed under the MIT license.
-The Anticloud overlay is licensed under Anticommons 0.1.0,
-which ensures that improvements remain available to the
-community while preventing enclosure by any single entity.
+## Verification
 
-## Upstream
-
-**SHA-256:** pending resolution
-
-The upstream project is pinned to the above commit hash
-to ensure reproducible builds and verifiable provenance.
-
-## Benchmarks
-
-Benchmark results are recorded in BENCH.json.
-
-Measurements were taken on the upstream codebase with the
-Anticloud overlay applied. Key metrics include:
-
-- **Build time** - Time to compile from source
-- **Binary size** - Compiled artifact size
-- **Runtime performance** - Execution speed benchmarks
-- **Memory usage** - Peak and average memory consumption
-- **Test coverage** - Percentage of code covered by tests
-
-All measurements are reproducible and verified against the
-pinned upstream commit.
-
-## Additional Information
-
-This project is part of the Anticloud ecosystem, providing
-CARBON_CAPTURE functionality with measured performance characteristics.
-
-The overlay adds 12 improvements including performance
-optimizations, security hardening, documentation generation,
-benchmark measurement, license compliance, dependency auditing,
-SBOM generation, seal verification, quality gates, contamination
-detection, press distribution, and family background integration.
-
-## Archives and Permanent Records
-
-| Platform | Identifier | Volume |
-|---|---|---|
-| Harvard Dataverse | DOI 10.7910/DVN/YMJKOG | 145 citable datasets |
-| AIOSS verification kit | DOI 10.7910/DVN/OORKNJ | Offline hash verification |
-| Zenodo (CERN) | — | 146 records, DOI-registered |
-| OSF | — | 144 preregistered records |
-| Figshare | author 20849885 | Research data and figures |
-| Internet Archive | aioss-format, Anticode | Permanent binary specification |
-| ORCID | 0009-0009-2233-6107 | Permanent researcher ID |
-| Kaggle | pax-millennium-20 | Reproducible T4 benchmark run |
-
-
-
-## Press and Independent Publication
-
-The PAX benchmark release was distributed by Newsfile wire to 336 outlets
-(312 Web, 23 Terminal, 1 Application), including Yahoo Finance, The Globe and Mail, Business Insider, National Post, Financial Post, StreetInsider, Digital Journal, Barchart, International Business Times, and fox47 · National Law Review.
-Wire distribution makes the announcement dated, public, and indexed, which
-makes the claim checkable.
-
+Recompute the SHA3-256 of `BENCH.json` and compare to this package’s register. Any drift = invalid package.
